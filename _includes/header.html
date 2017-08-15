@@ -1,0 +1,11 @@
+<header id="site-header">
+  <div class="container">
+    <nav class="nav justify-content-center flex-column flex-lg-row">
+      {% for item in site.data.nav %}
+      <a class="nav-link
+      {% if item.path == page.url %} active{% endif %}
+      {% if item.isExt %} ext{% endif %}" href="{{ item.path }}">{{ item.title }}</a>
+      {% endfor %}
+    </nav>
+  </div>
+</header>

@@ -1,0 +1,23 @@
+---
+---
+#page-content {
+  .media-image {
+    width: 90px;
+    height: 90px;
+    background-size: cover;
+    background-repeat: no-repeat;
+		background-position: center;
+		border: 4px solid #fff;
+  }
+  ul {
+    padding-bottom: 15px;
+  }
+  li.media {
+    padding: 15px;
+    background-color: #eee;
+    border-bottom: 2px solid #fff;
+  }
+  li.media:last-child {
+    border-bottom: 0;
+  }
+}

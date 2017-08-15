@@ -1,0 +1,13 @@
+<tr>
+  <td>{{ patent.title }}</td>
+  <td>
+    {% for inventor in patent.inventors %}
+      {{ inventor }}
+      {% unless forloop.last %}
+        <br>
+      {% endunless%}
+    {% endfor %}
+  </td>
+  <td>{{ patent.number }}</td>
+  <td>{{ patent.date }}</td>
+</tr>

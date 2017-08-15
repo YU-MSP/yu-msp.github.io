@@ -1,0 +1,6 @@
+{% if include.members.size > 0 %}
+<h3>{{ include.label }}</h3>
+<ul class="list-unstyled">
+  {% include members.list.html members=include.members %}
+</ul>
+{% endif %}

@@ -1,0 +1,12 @@
+- title: MSP lab.
+  path: /
+- title: Members
+  path: /members
+# - title: Research
+#   path: /research
+- title: Publications
+  path: /publications
+- title: Patents
+  path: /patents
+- title: Contact
+  path: /contact

@@ -1,0 +1,69 @@
+# The item written to this file is used in '/include/member_item.html'.
+# if necessary, you can modify that file (member_item.html) but please update this document.
+
+# Each data must be item of list. It maeans that each item must start with '-'.
+#
+# The following list is acceptable variables and their description.
+# Items marked with 'default' will be printed by default vale even if no value is entered.
+# Starred(*) items are required.
+# - name_kr: Name of member in Korean. (*)
+# - name_en: Name of member in English. (*)
+# - cover: Profile image "name" not "path". (default: /assets/images/cover.png)
+#          The image file should be located under '/assets/images/covers'.
+# - position: Follows the name. see member_item.html. (deprecated)
+# - body: Introduction of member. (*)
+# - tel: As is.
+# - fax: As is.
+# - email: As is.
+
+# ther is only one professor
+professor:
+  - name_kr: 정호열
+    name_en: Ho-Youl, Jung
+    cover: jung-ho-youl.jpg
+    body: >
+      He received the Ph.D degree in the Electronics Engineering from the National Institute of Applied Sciences (INSA), Lyon, France, in 1998. He is currently an assistant professor in the Department of Electrical Engineering and Computer Science at Yeungnam University, Korea. Both his teaching and research interests include digital signal processing, wavelets, watermarking, JPEG/JPEG-2000, QoS(Quality of Service) measurement for transmitted multimedia data, and computer graphics (3-D meshes processing).
+    tel: '+82-53-810-3545'
+    fax: '+82-53-810-4742'
+    email: hoyoul@yu.ac.kr
+
+doctors:
+  - name_kr: 쿠옌 카 쿵
+    name_en: Cuong Khac, Kguyen
+    body: >
+      test
+    tel: +82-10-4081-8879
+      
+masters:
+  - name_kr: 최연규
+    name_en: Yeon-Gyu, Choi
+    body: >
+      test
+    tel: +82-10-2972-4307
+
+  - name_kr: 윤혁준
+    name_en: Hyeok-Jun, Yun
+    body: >
+      test
+    tel: +82-10-5233-4718
+
+bachelors:
+  - name_kr: 황승현
+    name_en: Seung-Hyun, Hwang
+    body: >
+      test
+    tel: +82-10-5122-0301
+    
+  - name_kr: 서은영
+    name_en: Eun-Young, Seo
+    tel: +82-10-3370-9971
+
+  - name_kr: 김수민
+    name_en: Su-Min, Kim
+    tel: +82-10-6407-5531
+
+  - name_kr: 서은별
+    name_en: Eun-Byul, Seo
+    tel: +82-10-9580-1918
+
+alumni:

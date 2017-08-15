@@ -1,0 +1,22 @@
+<li class="media">
+    <div class="d-flex mr-3 rounded-circle media-image"
+    {% if member.cover %}
+         style="background-image: url('/assets/images/members/{{ member.cover }}')">
+    {% else %}
+         style="background-image: url('/assets/images/cover.png')">
+    {% endif %}
+    </div>
+    <div class="media-body">
+        <h5 class="mt-0 mb-1">{{ member.name_en }}</h5>
+        <p>{{ member.body }}</p>
+        {% if member.tel %}
+        <a class="badge badge-default" href="tel:{{ member.tel }}">Tel. {{ member.tel }}</a>
+        {% endif %}
+        {% if member.fax %}
+        <a class="badge badge-default" href="fax:{{ member.fax }}">Fax {{ member.fax }}</a>
+        {% endif %}
+        {% if member.email %}
+        <a class="badge badge-default" href="mailto:{{ member.mail }}">E-mail {{ member.email }}</a>
+        {% endif %}
+    </div>
+</li>

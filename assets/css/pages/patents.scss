@@ -1,0 +1,19 @@
+---
+---
+#page-content {
+  table td, table th{
+    text-align: center;
+    vertical-align: middle;
+  }
+  td:nth-child(1) {}
+
+  td:nth-child(2) {
+    width: 120px;
+  }
+  td:nth-child(3) {
+    width: 200px;
+  }
+  td:nth-child(4){
+    width: 120px;
+  }
+}

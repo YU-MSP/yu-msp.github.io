@@ -1,0 +1,77 @@
+---
+layout: page
+permalink: /contact
+title: Contact
+---
+<script>
+  if (!/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i
+    .test(navigator.userAgent)) {
+    $(function () {
+      var $trg = $('#page-content .map');
+      var $overlay = $trg.find('.overlay');
+      var dft_opacity = $overlay.css('opacity');
+      var obj_opacity = 0.625;
+      var speed = 300;
+
+      function on_over() {
+        $overlay.stop().animate({
+          opacity: obj_opacity
+        }, speed);
+      }
+
+      function on_leave() {
+        if ($overlay.is(':visible')) {
+          $overlay.stop().animate({
+            opacity: dft_opacity
+          }, speed);
+        } else {
+          $overlay
+            .stop().css('opacity', 0)
+            .show().animate({
+              opacity: dft_opacity
+            }, speed);
+        }
+      }
+
+      function on_click() {
+        $overlay.stop().hide();
+      }
+
+      $trg
+        .on('mouseover', on_over)
+        .on('mouseleave', on_leave)
+        .on('click', on_click);
+    });
+  } else {
+    $(function(){ $('#page-content .map .overlay').hide(); });
+  }
+</script>
+
+<div class="row">
+  <div class="col">
+    <h3 class="text-center">MSP lab.</h3>
+    <p class="text-center lead">
+      Room #307, IT Building (E21), Yeungnam University.<br> 280, Daehak-ro, Gyeongsan-si, Gyeongsangbuk-do, Republic of
+      Korea
+    </p>
+  </div>
+</div>
+<div class="row">
+  <div class="col text-right">
+    <h5>Tel.</h5>
+    <p>
+      +82-53-810-3939<br> +82-53-813-2496
+    </p>
+  </div>
+  <div class="col">
+    <h5>Fax</h5>
+    <p>
+      +82-53-810-4742
+    </p>
+  </div>
+</div>
+<div class="map full-width">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3234.7488200104926!2d128.75224271571807!3d35.83063798015969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35660c17653940d7%3A0x2e63377e8c9755ce!2z6rK97IKw7IucIOuPmeu2gOuPmSDsmIHrgqjrjIDtlZnqtZAg6rO16rO864yA7ZWZ67O46rSA!5e0!3m2!1sko!2skr!4v1502122696271"
+    class="full-width" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+  <div class="overlay">Click to Active</div>
+</div>

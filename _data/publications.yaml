@@ -1,0 +1,45 @@
+# The item written to this file is used in '/include/publications_item.html'.
+# if necessary, you can modify that file (publications_item.html) but please update this document.
+
+# Each data must be item of list. It maeans that each item must start with '-'.
+#
+# The following list is acceptable variables and their description.
+# Items marked with 'default' will be printed by default vale even if no value is entered.
+# Starred(*) items are required.
+# - authors: Name of authors. It must be List (*)
+#            To add an ellipsis(et al.), make the last element '_omit'
+#            ex) authors: [foo, bar, _omit]
+#            Ellipsis defined in '/include/publications_item.html'
+# - title: Title of paper. (*)
+# - name: Name of jouranl or conference
+# - volume: Volume number and unit such as vol. or 호.
+# - year: Year published. (*)
+#         It can be a date such as "Oct. 1999"
+# - page: Page number.
+# - medium: As is.
+
+interJournal:
+  - authors: [H.Y. Jung, Seiichi, C.L. Choi]
+    title: A Korean Continuous Speech Recognition System Based upon SPOJUS-SYNO
+    name: 일본전자정보통신학회
+    year: 1995
+  - authors: [H.Y. Jung, T.Y. Choi, R. Prost, _omit]
+    title: A Unified Mathematical Form of Walsh-Hadamard Transform For Lossless Image Data Compression
+    name: Signal Processing
+    year: 1997
+
+interConference:
+  - authors: [K.Y. Yoo and J.K. Kim]
+    title: Block motion recovery by neighborhood matching
+    name: in Proc. of IEEE International Workshop on ISPACS(ISPACS-1994), Seoul, Korea
+    page: pp. 158-162
+    year: Oct. 1994
+  - authors: [H.Y. Jung, Seiichi, J.L. Choi]
+    title: A Korean Continuous Speech Recognition System for Flight Reservation
+    name: Proceedings IEEE APWMT
+    year: 1995
+
+
+# domesticJournal:
+
+# domesticConference:
