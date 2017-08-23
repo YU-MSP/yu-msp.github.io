@@ -11,7 +11,7 @@
 # - cover: Profile image "name" not "path". (default: /assets/images/cover.png)
 #          The image file should be located under '/assets/images/covers'.
 # - position: Follows the name. see member_item.html. (deprecated)
-# - body: Introduction of member. (*)
+# - body: Introduction of member.
 # - tel: As is.
 # - fax: As is.
 # - email: As is.
@@ -22,7 +22,7 @@ professor:
     name_en: Ho-Youl, Jung
     cover: jung-ho-youl.jpg
     body: >
-      He received the Ph.D degree in the Electronics Engineering from the National Institute of Applied Sciences (INSA), Lyon, France, in 1998. He is currently an assistant professor in the Department of Electrical Engineering and Computer Science at Yeungnam University, Korea. Both his teaching and research interests include digital signal processing, wavelets, watermarking, JPEG/JPEG-2000, QoS(Quality of Service) measurement for transmitted multimedia data, and computer graphics (3-D meshes processing).
+      He received the Ph.D degree in the Electronics Engineering from the National Institute of Applied Sciences (INSA), Lyon, France, in 1998. He is currently professor in the Department of Information and Communication Engineering at Yeungnam University, Korea. Both his teaching and research interests include digital signal processing, image signal processing, and ADAS(Advanced Driver Assistance System) and autonomous vehicle.
     tel: '+82-53-810-3545'
     fax: '+82-53-810-4742'
     email: hoyoul@yu.ac.kr
@@ -30,28 +30,23 @@ professor:
 doctors:
   - name_kr: 쿠옌 카 쿵
     name_en: Cuong Khac, Kguyen
-    body: >
-      test
     tel: +82-10-4081-8879
       
 masters:
   - name_kr: 최연규
     name_en: Yeon-Gyu, Choi
-    body: >
-      test
     tel: +82-10-2972-4307
 
   - name_kr: 윤혁준
     name_en: Hyeok-Jun, Yun
-    body: >
-      test
     tel: +82-10-5233-4718
 
 bachelors:
   - name_kr: 황승현
     name_en: Seung-Hyun, Hwang
+    cover: Hwang-Seung-Hyun.jpg
     body: >
-      test
+      He is currently a senior at Yeungnam University.
     tel: +82-10-5122-0301
     
   - name_kr: 서은영
@@ -66,4 +61,24 @@ bachelors:
     name_en: Eun-Byul, Seo
     tel: +82-10-9580-1918
 
-alumni:
+alumnus:
+  - name_kr: 서용석
+    name_en: Yong-Seok, Seo
+    cover: Seo-Yong-Seok.jpg
+    body: >
+      He received the MS degree in the Information & Communication Engineering from Yeungnam University in 2001. He received the Ph.D degree in the Computer Engineering from the Chungnam National University, Daejeon, Korea, in 2009. He is currently a principal researcher in the SW contents Research Laboratory, ETRI. His research interests include computer vision, pattern recognition, and multimedia security. He also likes to walking, traveling, thinking alone, and taking photos. :)
+  - name_kr: 박하중
+    name_en: Ha-Jung, Park
+    cover: Park-Ha-Jung.jpg
+    body: >
+      He received the Ph.D degree in the Information & Communication Engineering from Yeungnam University. He is currently a senior engineer in Samsung Electronics and he is working at Patent R&D group. His research interests include multimedia standards including JPEG and MPEG.
+  - name_kr: 김민수
+    name_en: Min-Su, Kim
+    cover: Kim-Min-Su.jpg
+    body: >
+      He received the dual Ph.D degrees in the Electronics Engineering from the National Institute of Applied Sciences (INSA), Lyon, France, and the Information & Communication Engineering from Yeungnam University in 2007. He is currently a lead researcher in the Flight Avionics Group of Korean Air R&D Center. His research interests include digital signal processing, wavelets, watermarking, and computer graphics (3-D meshes processing). From 2013, he joined upgrade program for Republic of Korea Navy's P-3C Orion, a four-engine turboprop anti-submarine and maritime surveillance aircraft. He works for navigation system for both civil and military aircraft.
+  - name_kr: 조재원
+    name_en: Jae-Won, Jo
+    cover: Jo-Jae-Won.jpg
+    body: >
+      He received the dual Ph.D degrees in the Electronics Engineering from the National Institute of Applied Sciences (INSA), Lyon, France, in 2007 and in the Information & Communication Engineering from Yeungnam University in 2008, respectively. He is currently a principal engineer in Samsung Electronics and he assumes the product owner of Tizen Store. His research interests include multimedia signal processing and artificical intelligence including machine learning. He also likes to play with his children and to ski in winter.
