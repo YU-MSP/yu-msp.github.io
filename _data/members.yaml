@@ -28,10 +28,6 @@ professor:
     email: hoyoul@yu.ac.kr
 
 doctors:
-  - name_kr: 쿠옌 카 쿵
-    name_en: Cuong Khac, Kguyen
-    tel: +82-10-4081-8879
-    
   - name_kr: 김현구
     name_en: Hyun-Koo, KIM
     cover: KIM-Hyun-Koo.jpg
@@ -42,12 +38,21 @@ doctors:
       His interested in Signal Processing, Sensor fusion, and Deep learning Model for Object detection and Self-driving Car.
     tel: +82-10-2979-8032
     email: kim-hk@ynu.ac.kr / studian@gmail.com
-      
-masters:
+    
+  - name_kr: 쿠옌 카 쿵
+    name_en: Cuong Khac, Kguyen
+    tel: +82-10-4081-8879
+  
   - name_kr: 최연규
     name_en: Yeon-Gyu, Choi
-    tel: +82-10-2972-4307
+    tel: +82-10-2972-4307  
 
+  - name_kr: 박웅규
+    name_en: 
+    tel: +82-10-4742-0008
+  
+      
+masters:
   - name_kr: 윤혁준
     name_en: Hyeok-Jun, Yun
     tel: +82-10-5233-4718
