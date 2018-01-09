@@ -58,24 +58,17 @@ masters:
     tel: +82-10-5233-4718
 
 bachelors:
-  - name_kr: 황승현
-    name_en: Seung-Hyun, Hwang
-    cover: Hwang-Seung-Hyun.jpg
-    body: >
-      He is currently a senior at Yeungnam University.
-    tel: +82-10-5122-0301
-    
   - name_kr: 서은영
     name_en: Eun-Young, Seo
+    body: >
+      She is currently a senior at Yeungnam University.
     tel: +82-10-3370-9971
 
-  - name_kr: 김수민
-    name_en: Su-Min, Kim
-    tel: +82-10-6407-5531
-
-  - name_kr: 서은별
-    name_en: Eun-Byul, Seo
-    tel: +82-10-9580-1918
+  - name_kr: 유지환
+    name_en: Ji-Hwan, Yu
+    body: >
+      She is currently a junior at Yeungnam University.
+    tel: +82-10-2032-8965
 
 alumnus:
   - name_kr: 서용석
