@@ -2,8 +2,8 @@
   path: /
 - title: Members
   path: /members
-#- title: Research
-#  path: /research
+- title: Research
+  path: /research
 - title: Publications
   path: /publications
 - title: Patents
