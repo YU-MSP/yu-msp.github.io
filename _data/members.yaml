@@ -67,17 +67,23 @@ masters:
     tel: +82-10-5233-4718
 
 bachelors:
-  - name_kr: 서은영
-    name_en: Eun-Young, Seo
-    body: >
-      She is currently a senior at Yeungnam University.
-    tel: +82-10-3370-9971
-
   - name_kr: 유지환
     name_en: Ji-Hwan, Yu
     body: >
-      She is currently a junior at Yeungnam University.
+      He is currently a senior (undergraduate) at Yeungnam University.
     tel: +82-10-2032-8965
+  - name_kr: 기대환
+    name_en: Dae-Hwan, Gi
+    body: >
+      He is currently a senior (undergraduate) at Yeungnam University.
+    tel: +82-10-4928-0796
+  - name_kr: 손기수
+    name_en: Ki-Soo, Son
+    body: >
+      He is currently a junior (undergraduate) at Yeungnam University.
+    tel: +82-10-5505-4905
+
+
 
 alumnus:
   - name_kr: 서용석
@@ -103,6 +109,10 @@ alumnus:
   - name_kr: 정정은
     name_en: Jung-Eun, Joung
     body: >
-      He received the MS degree in the Information & Communication Engineering from Yeungnam University in 2012. He is currently a principal Engineer in the TE Connectivity Korea. His research interests include embedded system engineering and control system, and computer vision. He also likes to ski, traveling, and taking photos. :)
+      He received the MS degree in the Information & Communication Engineering from Yeungnam University in 2012. He is currently a principal Engineer in the TE Connectivity Korea. His research interests include embedded system engineering and control system, and computer vision. He also likes to ski, traveling, and taking photos. 
+  - name_kr: 임효진
+    name_en: Hyo-Jin, Lim 
+    body: >
+      He received the MS degree in the Information & Communication Engineering from Yeungnam University in 2017. He is currently a .......... His research interests include embedded system engineering and control system, and computer vision. He also likes to traveling, and taking photos.
       
       
