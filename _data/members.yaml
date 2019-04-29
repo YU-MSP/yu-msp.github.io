@@ -28,13 +28,13 @@ professor:
     email: hoyoul@yu.ac.kr
     
 postdoc:
-  - name_kr: ...
-    name_en: ...
-    cover: ...
+  - name_kr: 김현구
+    name_en: Hyun-Koo, KIM
+    cover: KIM-Hyun-Koo.jpg
     body: >
-      ...
-    tel: ...
-    email: ...
+      He is Post-doctor. He received the Ph.D. and MS degree in the Information & Communication Engineering from Yeungnam University in 2019 and 2011, respectively. His interested in Signal Processing, Sensor fusion, Lidar-to-Color Image Generation, and Deep learning Networks for Object detection and Self-driving Car.
+    tel: +82-10-2979-8032
+    email: kim-hk@ynu.ac.kr / studian@gmail.com  
 
 doctors:
   - name_kr: 김현구
@@ -106,6 +106,13 @@ alumnus:
     cover: Cho-Jae-Won.jpg
     body: >
       He received the dual Ph.D degrees in the Electronics Engineering from the National Institute of Applied Sciences (INSA), Lyon, France, in 2007 and in the Information & Communication Engineering from Yeungnam University in 2008, respectively. He is currently a principal engineer in Samsung Electronics and he assumes the product owner of Tizen Store. His research interests include multimedia signal processing and artificical intelligence including machine learning. He also likes to play with his children and to ski in winter.
+  - name_kr: 김현구
+    name_en: Hyun-Koo, KIM
+    cover: KIM-Hyun-Koo.jpg
+    body: >
+      He received the Ph.D. and MS degree in the Information & Communication Engineering from Yeungnam University in 2019 and 2011, respectively. He was worked in Gyeongbuk Institute of IT Convergence Industry Technology (that is local Government R&D Institute) from June, 2013 to December, 2017. Currently, He is Post-doctor in Yeungnam University. His interested in Signal Processing, Sensor fusion, Lidar-to-Color Image Generation, and Deep learning Networks for Object detection and Self-driving Car.
+    tel: +82-10-2979-8032
+    email: kim-hk@ynu.ac.kr / studian@gmail.com      
   - name_kr: 정정은
     name_en: Jung-Eun, Joung
     body: >
